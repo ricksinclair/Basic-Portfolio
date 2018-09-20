@@ -1,0 +1,41 @@
+.awning {
+  background-color: black;
+  color: white;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.portrait {
+  display: block;
+  border-style: groove;
+  border-width: 10px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+.lefttext {
+  float: left;
+  text-align: left;
+  word-wrap: break-word;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.righttext {
+  float: right;
+  text-align: right;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contentbox {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
