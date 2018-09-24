@@ -1,23 +1,32 @@
+body {
+  background-image: "/assets/img/qbkls.png";
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: white;
+}
+
 .awning {
-  background-color: black;
+  background-color: #4aaaa5;
   color: white;
-  border-style: dashed;
-  border-width: 10px;
-  border-color: black;
-  margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .portrait {
-  display: block;
   border-style: groove;
   border-width: 10px;
   border-color: black;
   margin-left: auto;
   margin-right: auto;
   float: left;
+  width: 300px;
+  height: 300px;
 }
-.lefttext {
+
+.biotext {
   float: left;
   text-align: left;
   word-wrap: break-word;
@@ -25,8 +34,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-.righttext {
+.contact {
   float: right;
   text-align: right;
   text-align: justify;
@@ -36,6 +44,10 @@
 
 .contentbox {
   display: flex;
+  width: 960px;
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  background-color: grey;
+  padding-top: 75px;
 }
