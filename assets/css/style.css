@@ -36,8 +36,7 @@ body {
   background-color: #333;
 }
 
-#nav ul li a,
-visited {
+#nav ul li a :visited {
   color: #ccc;
   display: block;
   padding: 15px;
