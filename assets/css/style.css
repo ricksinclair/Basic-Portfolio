@@ -17,7 +17,7 @@ body {
 
 .portrait {
   border-style: groove;
-xtte  border-width: 10px;
+  border-width: 10px;
   border-color: black;
   margin-left: auto;
   margin-right: auto;
@@ -48,8 +48,7 @@ xtte  border-width: 10px;
 #nav ul li:hover {
   background-color: #333;
 }
-#nav ul li a,
-visited {
+#nav ul li a :visited {
   color: #ccc;
   display: block;
   padding: 15px;
