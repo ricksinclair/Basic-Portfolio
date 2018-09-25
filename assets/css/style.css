@@ -1,73 +1,11 @@
-body {
-  background-color:beige; 
-  
-}
+body{ overflow-y: scroll; padding: 0; margin: 0; font-family: Arial; font-size: 16px; background-color: #F1F1F1; height: 2000px; }
 
-#nav {
-  background-color: #222;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-#nav-wrapper {
-  width: 960px;
-  margin: 0 auto;
-  text-align: left;
-}
-#nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-#nav ul li {
-  display: inline-block;
-}
-#nav ul li:hover {
-  background-color: #333;
-}
-#nav ul li a :visited {
-  color: #ccc;
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-}
+#nav{ background-color: #222; position: fixed; width: 100%; top: 0; }
+#nav-wrapper{ width: 960px; margin: 0 auto; text-align: left; }
+#nav ul{ list-style-type: none; padding: 0; margin: 0; }
+#nav ul li{ display: inline-block; }
+#nav ul li:hover{ background-color: #333; }
+#nav ul li a,visited{ color: #CCC; display: block; padding: 15px; text-decoration: none; }
 
-#wrapper {
-  width: 960px;
-  margin: 0 auto;
-  text-align: left;
-}
-#content {
-  background-color: #fff;
-  border: 3px solid #ddd;
-  padding: 20px;
-  margin: 80px 0 0 0;
-}
-
-
-
-#awning {
-  background-color: #4aaaa5;
-  color: white;
-  text-align: left;
-}
-
-.portrait {
-  border-style: groove;
-  border-width: 10px;
-  border-color: black;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  width: 300px;
-  height: 300px;
-}
-
-
-
-/* #contact {
-  float: right;
-  text-align: right;
-  text-align: justify;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-} */
+#wrapper{ width: 960px; margin: 0 auto; text-align: left; }
+#content{ background-color: #FFF; border: 3px solid #DDD; padding: 20px; margin: 80px 0 0 0; }  
