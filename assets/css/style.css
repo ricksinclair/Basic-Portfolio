@@ -1,6 +1,8 @@
 body {
-  background-image: "/assets/img/qbkls.png";
+  background: "/assets/img/qbkls.png";
+  
 }
+
 #nav {
   background-color: #222;
   position: fixed;
