@@ -38,7 +38,7 @@ body {
   background-color: #333;
 }
 
-#nav a {
+#nav ul li a:default {
   color: #ccc;
   display: block;
   padding: 15px;
