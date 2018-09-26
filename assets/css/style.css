@@ -137,7 +137,7 @@ a:active {
   margin-bottom: 30px;
   margin-top: 30px;
   padding-bottom: auto;
-  min-height: 100vh; /* will cover the 100% of viewport */
+  max-height: 100vh; /* will cover the 100% of viewport */
 }
 
 #content {
