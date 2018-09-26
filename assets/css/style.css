@@ -1,16 +1,17 @@
 /* Global Body Tag Style */
+
 body {
   overflow-y: scroll;
   padding: 0;
   margin: 0;
-  font-size: 16px;
   background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   background-image: url("../img/qbkls.png");
   background-size: auto;
-  height: auto;
+  padding-bottom: none;
+  min-height: 100%;
 }
 
 /* Links Globally */
@@ -76,6 +77,7 @@ a:active {
   padding: 0;
   margin: 0;
   text-align: right;
+  font-size: 20px;
 }
 
 #nav ul li {
@@ -103,8 +105,8 @@ a:active {
 
 #nametag {
   background-color: cadetblue;
-  height: 50px;
-  width: 200px;
+  height: auto;
+  width: auto;
   background-position-y: 3;
   text-decoration-style: none;
   text-decoration: none;
@@ -131,18 +133,19 @@ a:active {
 
 #wrapper {
   width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
   margin-top: 30px;
-  padding-bottom: auto;
+  height: 100%;
 }
 
 #content {
   background-color: #fff;
   border: 3px solid #ddd;
   padding: 20px;
-  margin: 200px 0 50px 0;
+  margin: 200px 0 auto 0;
+  height: 100%;
 }
 .portrait {
   border-style: groove;
@@ -171,16 +174,15 @@ a:active {
 }
 
 #social-footer {
-  justify-content: center;
   background-color: cadetblue;
   border-top: 5px solid grey;
   color: white;
-  position: bottom;
-  align-content: center;
+  position: static;
   text-align: center;
   width: 100%;
   bottom: 0;
-  height: fit-content;
+  padding: 0.25rem;
+  height: 200px;
   margin-top: auto;
 }
 
