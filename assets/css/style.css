@@ -108,6 +108,7 @@ a:active {
   text-align: center;
   position: absolute;
   bottom: 0;
+  left: 20px;
 }
 
 /* Main Content Style */
@@ -117,6 +118,7 @@ a:active {
   margin: 0 auto;
   text-align: left;
 }
+
 #content {
   background-color: #fff;
   border: 3px solid #ddd;
