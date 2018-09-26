@@ -163,3 +163,8 @@ a:active {
   color: black;
   color: inherit;
 }
+
+#name {
+  color: cadetblue;
+  border-bottom: 5px solid cadetblue;
+}
