@@ -108,9 +108,10 @@ a:active {
   text-decoration: none;
   word-wrap: unset;
   border-style: solid;
-  border-width: 1px;
-  border-color: #222;
+  border-width: 4px;
+  border-color: grey;
   border-spacing: 5px;
+  border-bottom: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -118,6 +119,10 @@ a:active {
   position: absolute;
   bottom: 0;
   left: 20px;
+}
+
+#nametag a {
+  text-decoration: none;
 }
 
 /* Main Content Style */
