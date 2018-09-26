@@ -11,6 +11,7 @@ body {
   text-decoration: none;
   background-image: url("../img/qbkls.png");
   background-size: auto;
+  padding-bottom: 0;
 }
 
 /* Links Globally */
