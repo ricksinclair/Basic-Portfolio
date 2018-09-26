@@ -134,13 +134,15 @@ a:active {
   text-align: left;
   margin-bottom: 30px;
   margin-top: 30px;
+  padding-bottom: auto;
 }
 
 #content {
   background-color: #fff;
   border: 3px solid #ddd;
   padding: 20px;
-  margin: 175px 0 0 0;
+  margin: 150px 0 0 0;
+  height: auto;
 }
 .portrait {
   border-style: groove;
@@ -157,10 +159,6 @@ a:active {
   color: black;
 }
 
-#contact {
-  display: flex;
-  float: right;
-}
 #contact a {
   float: right;
   color: black;
