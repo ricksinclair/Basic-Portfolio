@@ -1,17 +1,16 @@
 /* Global Body Tag Style */
 body {
-  overflow-y: auto;
+  overflow-y: scroll;
   padding: 0;
   margin: 0;
   font-size: 16px;
   background-color: #f1f1f1;
-  max-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   text-decoration: none;
   background-image: url("../img/qbkls.png");
   background-size: auto;
-  padding-bottom: 0;
+  height: auto;
 }
 
 /* Links Globally */
@@ -137,15 +136,14 @@ a:active {
   margin-bottom: 30px;
   margin-top: 30px;
   padding-bottom: auto;
-  max-height: 100vh; /* will cover the 100% of viewport */
 }
 
 #content {
   background-color: #fff;
   border: 3px solid #ddd;
   padding: 20px;
-  margin: 150px 0 0 0;
-  height: auto;
+  margin: 200px 0 50px 0;
+  min-height: 100vh;
 }
 .portrait {
   border-style: groove;
@@ -174,15 +172,16 @@ a:active {
 }
 
 #social-footer {
+  justify-content: center;
   background-color: cadetblue;
   border-top: 5px solid grey;
   color: white;
   position: relative;
   align-content: center;
   text-align: center;
-  height: min-content;
   width: 100%;
   bottom: 0;
+  height: fit-content;
 }
 
 #linkedin {
