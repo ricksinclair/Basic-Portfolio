@@ -135,6 +135,7 @@ a:active {
   margin-bottom: 30px;
   margin-top: 30px;
   padding-bottom: auto;
+  min-height: 100vh; /* will cover the 100% of viewport */
 }
 
 #content {
@@ -178,6 +179,7 @@ a:active {
   align-content: center;
   text-align: center;
   height: min-content;
+  width: 100%;
   bottom: 0;
 }
 
