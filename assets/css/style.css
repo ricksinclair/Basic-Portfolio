@@ -1,6 +1,6 @@
 /* Global Body Tag Style */
 body {
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -10,7 +10,7 @@ body {
   font-size: 15px;
   text-decoration: none;
   background-image: url("../img/qbkls.png");
-  background-size: 100vh;
+  background-size: auto;
 }
 
 /* Links Globally */
