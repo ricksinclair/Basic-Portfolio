@@ -9,6 +9,29 @@ body {
   font-size: 15px;
   text-decoration: none;
 }
+a {
+  color: white;
+} /* Globally */
+
+/* Each state */
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+a:focus {
+  text-decoration: none;
+  color: purple;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: green;
+}
 
 #nav {
   background-color: #222;
