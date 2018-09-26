@@ -41,18 +41,34 @@ a:active {
   position: fixed;
   width: 100%;
   top: 0;
+  height: 100px;
+
+}
+#nav p{
+      display: inline-block;
+      color:white;
+      font-size: 15px;
+
+
 }
 
 #nav-wrapper {
   width: 960px;
-  margin: 0 auto;
-  text-align: left;
+  margin: 0 400px;
+  height:50px;
+  position: absolute;
+  bottom: 0;
+  float: right;
+
 }
 
 #nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: right;
+
+
 }
 
 #nav ul li {
@@ -65,7 +81,7 @@ a:active {
 }
 
 #nav ul li a:default {
-  color: inherit;
+  color: white;
   display: block;
   padding: 15px;
   text-decoration: none;
@@ -87,7 +103,7 @@ a:active {
   background-color: #fff;
   border: 3px solid #ddd;
   padding: 20px;
-  margin: 80px 0 0 0;
+  margin: 175px 0 0 0;
 }
 .portrait {
   border-style: groove;
@@ -103,4 +119,38 @@ a:active {
 
 #patent {
   color: black;
+}
+
+#contact{
+  display:flex;
+  float:  right;
+  
+
+}
+#contact a{
+  float: right;
+  color:black;
+  color:inherit;
+
+}
+
+#nametag {
+      
+      background-color: aqua;
+      height:50px;
+      width:200px;
+      background-position-y: 3;
+      text-decoration-style: none;
+      text-decoration: none;
+      word-wrap: unset;
+      border-style:solid;
+      border-width: 1px;
+      border-color: #222; 
+      border-spacing: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center; 
+      position: absolute;
+      bottom:0;
 }
