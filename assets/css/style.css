@@ -1,3 +1,4 @@
+/* Global Body Tag Style */
 body {
   overflow-y: scroll;
   padding: 0;
@@ -11,11 +12,12 @@ body {
   background-image: url("../img/qbkls.png");
 }
 
+/* Links Globally */
 a {
   color: white;
-} /* Globally */
+}
 
-/* Each state */
+/*  Links Each state */
 
 a:visited {
   text-decoration: none;
@@ -35,6 +37,7 @@ a:active {
   color: red;
 }
 
+/* Nav Styles */
 #nav {
   background-color: #222;
   position: fixed;
@@ -87,6 +90,28 @@ a:active {
   text-decoration: none;
 }
 
+#nametag {
+  background-color: aqua;
+  height: 50px;
+  width: 200px;
+  background-position-y: 3;
+  text-decoration-style: none;
+  text-decoration: none;
+  word-wrap: unset;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #222;
+  border-spacing: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Main Content Style */
+
 #wrapper {
   width: 960px;
   margin: 0 auto;
@@ -121,24 +146,4 @@ a:active {
   float: right;
   color: black;
   color: inherit;
-}
-
-#nametag {
-  background-color: aqua;
-  height: 50px;
-  width: 200px;
-  background-position-y: 3;
-  text-decoration-style: none;
-  text-decoration: none;
-  word-wrap: unset;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #222;
-  border-spacing: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
 }
