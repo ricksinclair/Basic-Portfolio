@@ -10,6 +10,7 @@ body {
   font-size: 15px;
   text-decoration: none;
   background-image: url("../img/qbkls.png");
+  background-size: 100vh;
 }
 
 /* Links Globally */
