@@ -180,6 +180,7 @@ a:active {
   align-content: center;
   text-align: center;
   height: min-content;
+  float: bottom;
 }
 
 #linkedin {
