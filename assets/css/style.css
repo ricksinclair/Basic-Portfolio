@@ -89,3 +89,17 @@ a:active {
   padding: 20px;
   margin: 80px 0 0 0;
 }
+.portrait {
+  border-style: groove;
+  border-width: 10px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+#patent {
+  color: black;
+}
