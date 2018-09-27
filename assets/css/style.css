@@ -1,7 +1,12 @@
 /* Global Body Tag Style */
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
 
 body {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   padding: 0;
   margin: 0;
   background-color: #f1f1f1;
@@ -11,17 +16,17 @@ body {
   background-image: url("../img/qbkls.png");
   background-size: auto;
   padding-bottom: none;
-  min-height: 100%;
+  line-height: 20px;
 }
 
 /* Links Globally */
-a {
+/* a {
   color: white;
-}
+} */
 
 /*  Links Each state */
 
-a:visited {
+a {
   text-decoration: none;
   color: white;
 }
@@ -137,7 +142,6 @@ a:active {
   text-align: left;
   margin-bottom: 5%;
   margin-top: 30px;
-  height: 100%;
 }
 
 #content {
@@ -145,7 +149,7 @@ a:active {
   border: 3px solid #ddd;
   padding: 20px;
   margin: 200px 0 auto 0;
-  height: 100%;
+  /* height: 100%; */
 }
 .portrait {
   border-style: groove;
@@ -157,9 +161,11 @@ a:active {
   width: 300px;
   height: 300px;
 }
-
-#patent {
+.patent {
   color: black;
+}
+.patent:hover {
+  color: red;
 }
 
 #contact a {
@@ -177,13 +183,12 @@ a:active {
   background-color: cadetblue;
   border-top: 5px solid grey;
   color: white;
-  position: static;
+  position: relative;
   text-align: center;
   width: 100%;
   bottom: 0;
   padding: 0.25rem;
   height: 200px;
-  margin-top: auto;
 }
 
 #social-icons {
