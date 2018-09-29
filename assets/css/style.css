@@ -201,3 +201,85 @@ a:active {
 #social-icons {
   margin-top: 10px;
 }
+
+input[type="text"] {
+  padding: 5px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+input[type="email"] {
+  padding: 5px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #fff;
+}
+
+select {
+  padding: 3px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 3;
+  border-radius: 3px;
+  background-color: cadetblue;
+  color: white;
+}
+
+input[type="text"]:focus {
+  border-color: green;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  background-color: cadetblue;
+  color: white;
+
+  transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+textarea {
+  padding: 5px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+
+textarea::placeholder {
+  color: azure;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+input[type="phone"] {
+  padding: 5px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+input[type="submit"]:hover {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  background-color: cadetblue;
+  color: white;
+  transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+input::placeholder {
+  color: azure;
+  font-size: 1.2em;
+  font-style: italic;
+}
