@@ -111,6 +111,12 @@ a:active {
   text-decoration: none;
 }
 
+/* nav item pipe solution */
+
+.nav li + li::before {
+  content: " | ";
+}
+
 .nametag {
   background-color: cadetblue;
   height: auto;
