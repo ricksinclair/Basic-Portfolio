@@ -269,7 +269,7 @@ textarea::placeholder {
   font-style: italic;
 }
 
-input[type="phone"] {
+input[type="tel"] {
   padding: 5px;
   border: 2px solid #fff;
   -webkit-border-radius: 5px;
