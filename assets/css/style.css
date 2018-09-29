@@ -46,6 +46,7 @@ a:active {
 
 /* Nav Styles */
 #nav {
+  z-index: 2;
   clear: both;
   background-color: #222;
   position: fixed;
