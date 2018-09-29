@@ -181,7 +181,7 @@ a:active {
   color: inherit;
 }
 
-#name {
+.name {
   color: cadetblue;
   border-bottom: 5px solid cadetblue;
 }
