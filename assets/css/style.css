@@ -30,10 +30,7 @@ a {
   text-decoration: none;
   color: white;
 }
-a:hover {
-  text-decoration: none;
-  color: red;
-}
+
 a:focus {
   text-decoration: none;
   color: grey;
@@ -41,7 +38,7 @@ a:focus {
 a:hover,
 a:active {
   text-decoration: none;
-  color: red;
+  color: lightgreen;
 }
 
 /* Nav Styles */
