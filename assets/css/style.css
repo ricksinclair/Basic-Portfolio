@@ -33,11 +33,16 @@ a {
 
 a:focus {
   text-decoration: none;
-  color: orangered;
+  color: cadetblue;
 }
 a:hover {
   text-decoration: none;
   color: lightgreen;
+}
+
+a:active {
+  text-decoration: underline;
+  color: orangered;
 }
 
 /* Nav Styles */
